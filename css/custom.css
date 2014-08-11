@@ -1,0 +1,1532 @@
+@import url(http://fonts.googleapis.com/css?family=Exo+2:300,400);
+@charset "UTF-8";
+@font-face {
+  font-family: 'FontAwesome';
+  font-style: normal;
+  font-weight: normal;
+  src: url('http://weloveiconfonts.com/api/fonts/fontawesome/fontawesome-webfont.eot');
+  src: url('http://weloveiconfonts.com/api/fonts/fontawesome/fontawesome-webfont.eot?#iefix') format('eot'), url('http://weloveiconfonts.com/api/fonts/fontawesome/fontawesome-webfont.woff') format('woff'), url('http://weloveiconfonts.com/api/fonts/fontawesome/fontawesome-webfont.ttf') format('truetype'), url('http://weloveiconfonts.com/api/fonts/fontawesome/fontawesome-webfont.svg#FontAwesomeRegular') format('svg');
+}
+.fontawesome-glass:before {
+  content: "\f000";
+}
+.fontawesome-music:before {
+  content: "\f001";
+}
+.fontawesome-search:before {
+  content: "\f002";
+}
+.fontawesome-envelope:before {
+  content: "\f003";
+}
+.fontawesome-heart:before {
+  content: "\f004";
+}
+.fontawesome-star:before {
+  content: "\f005";
+}
+.fontawesome-star-empty:before {
+  content: "\f006";
+}
+.fontawesome-user:before {
+  content: "\f007";
+}
+.fontawesome-film:before {
+  content: "\f008";
+}
+.fontawesome-th-large:before {
+  content: "\f009";
+}
+.fontawesome-th:before {
+  content: "\f00a";
+}
+.fontawesome-th-list:before {
+  content: "\f00b";
+}
+.fontawesome-ok:before {
+  content: "\f00c";
+}
+.fontawesome-remove:before {
+  content: "\f00d";
+}
+.fontawesome-zoom-in:before {
+  content: "\f00e";
+}
+.fontawesome-zoom-out:before {
+  content: "\f010";
+}
+.fontawesome-off:before {
+  content: "\f011";
+}
+.fontawesome-signal:before {
+  content: "\f012";
+}
+.fontawesome-cog:before {
+  content: "\f013";
+}
+.fontawesome-trash:before {
+  content: "\f014";
+}
+.fontawesome-home:before {
+  content: "\f015";
+}
+.fontawesome-file:before {
+  content: "\f016";
+}
+.fontawesome-time:before {
+  content: "\f017";
+}
+.fontawesome-road:before {
+  content: "\f018";
+}
+.fontawesome-download-alt:before {
+  content: "\f019";
+}
+.fontawesome-download:before {
+  content: "\f01a";
+}
+.fontawesome-upload:before {
+  content: "\f01b";
+}
+.fontawesome-inbox:before {
+  content: "\f01c";
+}
+.fontawesome-play-circle:before {
+  content: "\f01d";
+}
+.fontawesome-repeat:before {
+  content: "\f01e";
+}
+.fontawesome-refresh:before {
+  content: "\f021";
+}
+.fontawesome-list-alt:before {
+  content: "\f022";
+}
+.fontawesome-lock:before {
+  content: "\f023";
+}
+.fontawesome-flag:before {
+  content: "\f024";
+}
+.fontawesome-headphones:before {
+  content: "\f025";
+}
+.fontawesome-volume-off:before {
+  content: "\f026";
+}
+.fontawesome-volume-down:before {
+  content: "\f027";
+}
+.fontawesome-volume-up:before {
+  content: "\f028";
+}
+.fontawesome-qrcode:before {
+  content: "\f029";
+}
+.fontawesome-barcode:before {
+  content: "\f02a";
+}
+.fontawesome-tag:before {
+  content: "\f02b";
+}
+.fontawesome-tags:before {
+  content: "\f02c";
+}
+.fontawesome-book:before {
+  content: "\f02d";
+}
+.fontawesome-bookmark:before {
+  content: "\f02e";
+}
+.fontawesome-print:before {
+  content: "\f02f";
+}
+.fontawesome-camera:before {
+  content: "\f030";
+}
+.fontawesome-font:before {
+  content: "\f031";
+}
+.fontawesome-bold:before {
+  content: "\f032";
+}
+.fontawesome-italic:before {
+  content: "\f033";
+}
+.fontawesome-text-height:before {
+  content: "\f034";
+}
+.fontawesome-text-width:before {
+  content: "\f035";
+}
+.fontawesome-align-left:before {
+  content: "\f036";
+}
+.fontawesome-align-center:before {
+  content: "\f037";
+}
+.fontawesome-align-right:before {
+  content: "\f038";
+}
+.fontawesome-align-justify:before {
+  content: "\f039";
+}
+.fontawesome-list:before {
+  content: "\f03a";
+}
+.fontawesome-indent-left:before {
+  content: "\f03b";
+}
+.fontawesome-indent-right:before {
+  content: "\f03c";
+}
+.fontawesome-facetime-video:before {
+  content: "\f03d";
+}
+.fontawesome-picture:before {
+  content: "\f03e";
+}
+.fontawesome-pencil:before {
+  content: "\f040";
+}
+.fontawesome-map-marker:before {
+  content: "\f041";
+}
+.fontawesome-adjust:before {
+  content: "\f042";
+}
+.fontawesome-tint:before {
+  content: "\f043";
+}
+.fontawesome-edit:before {
+  content: "\f044";
+}
+.fontawesome-share:before {
+  content: "\f045";
+}
+.fontawesome-check:before {
+  content: "\f046";
+}
+.fontawesome-move:before {
+  content: "\f047";
+}
+.fontawesome-step-backward:before {
+  content: "\f048";
+}
+.fontawesome-fast-backward:before {
+  content: "\f049";
+}
+.fontawesome-backward:before {
+  content: "\f04a";
+}
+.fontawesome-play:before {
+  content: "\f04b";
+}
+.fontawesome-pause:before {
+  content: "\f04c";
+}
+.fontawesome-stop:before {
+  content: "\f04d";
+}
+.fontawesome-forward:before {
+  content: "\f04e";
+}
+.fontawesome-fast-forward:before {
+  content: "\f050";
+}
+.fontawesome-step-forward:before {
+  content: "\f051";
+}
+.fontawesome-eject:before {
+  content: "\f052";
+}
+.fontawesome-chevron-left:before {
+  content: "\f053";
+}
+.fontawesome-chevron-right:before {
+  content: "\f054";
+}
+.fontawesome-plus-sign:before {
+  content: "\f055";
+}
+.fontawesome-minus-sign:before {
+  content: "\f056";
+}
+.fontawesome-remove-sign:before {
+  content: "\f057";
+}
+.fontawesome-ok-sign:before {
+  content: "\f058";
+}
+.fontawesome-question-sign:before {
+  content: "\f059";
+}
+.fontawesome-info-sign:before {
+  content: "\f05a";
+}
+.fontawesome-screenshot:before {
+  content: "\f05b";
+}
+.fontawesome-remove-circle:before {
+  content: "\f05c";
+}
+.fontawesome-ok-circle:before {
+  content: "\f05d";
+}
+.fontawesome-ban-circle:before {
+  content: "\f05e";
+}
+.fontawesome-arrow-left:before {
+  content: "\f060";
+}
+.fontawesome-arrow-right:before {
+  content: "\f061";
+}
+.fontawesome-arrow-up:before {
+  content: "\f062";
+}
+.fontawesome-arrow-down:before {
+  content: "\f063";
+}
+.fontawesome-share-alt:before {
+  content: "\f064";
+}
+.fontawesome-resize-full:before {
+  content: "\f065";
+}
+.fontawesome-resize-small:before {
+  content: "\f066";
+}
+.fontawesome-plus:before {
+  content: "\f067";
+}
+.fontawesome-minus:before {
+  content: "\f068";
+}
+.fontawesome-asterisk:before {
+  content: "\f069";
+}
+.fontawesome-exclamation-sign:before {
+  content: "\f06a";
+}
+.fontawesome-gift:before {
+  content: "\f06b";
+}
+.fontawesome-leaf:before {
+  content: "\f06c";
+}
+.fontawesome-fire:before {
+  content: "\f06d";
+}
+.fontawesome-eye-open:before {
+  content: "\f06e";
+}
+.fontawesome-eye-close:before {
+  content: "\f070";
+}
+.fontawesome-warning-sign:before {
+  content: "\f071";
+}
+.fontawesome-plane:before {
+  content: "\f072";
+}
+.fontawesome-calendar:before {
+  content: "\f073";
+}
+.fontawesome-random:before {
+  content: "\f074";
+}
+.fontawesome-comment:before {
+  content: "\f075";
+}
+.fontawesome-magnet:before {
+  content: "\f076";
+}
+.fontawesome-chevron-up:before {
+  content: "\f077";
+}
+.fontawesome-chevron-down:before {
+  content: "\f078";
+}
+.fontawesome-retweet:before {
+  content: "\f079";
+}
+.fontawesome-shopping-cart:before {
+  content: "\f07a";
+}
+.fontawesome-folder-close:before {
+  content: "\f07b";
+}
+.fontawesome-folder-open:before {
+  content: "\f07c";
+}
+.fontawesome-resize-vertical:before {
+  content: "\f07d";
+}
+.fontawesome-resize-horizontal:before {
+  content: "\f07e";
+}
+.fontawesome-bar-chart:before {
+  content: "\f080";
+}
+.fontawesome-twitter-sign:before {
+  content: "\f081";
+}
+.fontawesome-facebook-sign:before {
+  content: "\f082";
+}
+.fontawesome-camera-retro:before {
+  content: "\f083";
+}
+.fontawesome-key:before {
+  content: "\f084";
+}
+.fontawesome-cogs:before {
+  content: "\f085";
+}
+.fontawesome-comments:before {
+  content: "\f086";
+}
+.fontawesome-thumbs-up:before {
+  content: "\f087";
+}
+.fontawesome-thumbs-down:before {
+  content: "\f088";
+}
+.fontawesome-star-half:before {
+  content: "\f089";
+}
+.fontawesome-heart-empty:before {
+  content: "\f08a";
+}
+.fontawesome-signout:before {
+  content: "\f08b";
+}
+.fontawesome-linkedin-sign:before {
+  content: "\f08c";
+}
+.fontawesome-pushpin:before {
+  content: "\f08d";
+}
+.fontawesome-external-link:before {
+  content: "\f08e";
+}
+.fontawesome-signin:before {
+  content: "\f090";
+}
+.fontawesome-trophy:before {
+  content: "\f091";
+}
+.fontawesome-github-sign:before {
+  content: "\f092";
+}
+.fontawesome-upload-alt:before {
+  content: "\f093";
+}
+.fontawesome-lemon:before {
+  content: "\f094";
+}
+.fontawesome-phone:before {
+  content: "\f095";
+}
+.fontawesome-check-empty:before {
+  content: "\f096";
+}
+.fontawesome-bookmark-empty:before {
+  content: "\f097";
+}
+.fontawesome-phone-sign:before {
+  content: "\f098";
+}
+.fontawesome-twitter:before {
+  content: "\f099";
+}
+.fontawesome-facebook:before {
+  content: "\f09a";
+}
+.fontawesome-github:before {
+  content: "\f09b";
+}
+.fontawesome-unlock:before {
+  content: "\f09c";
+}
+.fontawesome-credit-card:before {
+  content: "\f09d";
+}
+.fontawesome-rss:before {
+  content: "\f09e";
+}
+.fontawesome-hdd:before {
+  content: "\f0a0";
+}
+.fontawesome-bullhorn:before {
+  content: "\f0a1";
+}
+.fontawesome-bell:before {
+  content: "\f0a2";
+}
+.fontawesome-certificate:before {
+  content: "\f0a3";
+}
+.fontawesome-hand-right:before {
+  content: "\f0a4";
+}
+.fontawesome-hand-left:before {
+  content: "\f0a5";
+}
+.fontawesome-hand-up:before {
+  content: "\f0a6";
+}
+.fontawesome-hand-down:before {
+  content: "\f0a7";
+}
+.fontawesome-circle-arrow-left:before {
+  content: "\f0a8";
+}
+.fontawesome-circle-arrow-right:before {
+  content: "\f0a9";
+}
+.fontawesome-circle-arrow-up:before {
+  content: "\f0aa";
+}
+.fontawesome-circle-arrow-down:before {
+  content: "\f0ab";
+}
+.fontawesome-globe:before {
+  content: "\f0ac";
+}
+.fontawesome-wrench:before {
+  content: "\f0ad";
+}
+.fontawesome-tasks:before {
+  content: "\f0ae";
+}
+.fontawesome-filter:before {
+  content: "\f0b0";
+}
+.fontawesome-briefcase:before {
+  content: "\f0b1";
+}
+.fontawesome-fullscreen:before {
+  content: "\f0b2";
+}
+.fontawesome-group:before {
+  content: "\f0c0";
+}
+.fontawesome-link:before {
+  content: "\f0c1";
+}
+.fontawesome-cloud:before {
+  content: "\f0c2";
+}
+.fontawesome-beaker:before {
+  content: "\f0c3";
+}
+.fontawesome-cut:before {
+  content: "\f0c4";
+}
+.fontawesome-copy:before {
+  content: "\f0c5";
+}
+.fontawesome-paper-clip:before {
+  content: "\f0c6";
+}
+.fontawesome-save:before {
+  content: "\f0c7";
+}
+.fontawesome-sign-blank:before {
+  content: "\f0c8";
+}
+.fontawesome-reorder:before {
+  content: "\f0c9";
+}
+.fontawesome-list-ul:before {
+  content: "\f0ca";
+}
+.fontawesome-list-ol:before {
+  content: "\f0cb";
+}
+.fontawesome-strikethrough:before {
+  content: "\f0cc";
+}
+.fontawesome-underline:before {
+  content: "\f0cd";
+}
+.fontawesome-table:before {
+  content: "\f0ce";
+}
+.fontawesome-magic:before {
+  content: "\f0d0";
+}
+.fontawesome-truck:before {
+  content: "\f0d1";
+}
+.fontawesome-pinterest:before {
+  content: "\f0d2";
+}
+.fontawesome-pinterest-sign:before {
+  content: "\f0d3";
+}
+.fontawesome-google-plus-sign:before {
+  content: "\f0d4";
+}
+.fontawesome-google-plus:before {
+  content: "\f0d5";
+}
+.fontawesome-money:before {
+  content: "\f0d6";
+}
+.fontawesome-caret-down:before {
+  content: "\f0d7";
+}
+.fontawesome-caret-up:before {
+  content: "\f0d8";
+}
+.fontawesome-caret-left:before {
+  content: "\f0d9";
+}
+.fontawesome-caret-right:before {
+  content: "\f0da";
+}
+.fontawesome-columns:before {
+  content: "\f0db";
+}
+.fontawesome-sort:before {
+  content: "\f0dc";
+}
+.fontawesome-sort-down:before {
+  content: "\f0dd";
+}
+.fontawesome-sort-up:before {
+  content: "\f0de";
+}
+.fontawesome-envelope-alt:before {
+  content: "\f0e0";
+}
+.fontawesome-linkedin:before {
+  content: "\f0e1";
+}
+.fontawesome-undo:before {
+  content: "\f0e2";
+}
+.fontawesome-legal:before {
+  content: "\f0e3";
+}
+.fontawesome-dashboard:before {
+  content: "\f0e4";
+}
+.fontawesome-comment-alt:before {
+  content: "\f0e5";
+}
+.fontawesome-comments-alt:before {
+  content: "\f0e6";
+}
+.fontawesome-bolt:before {
+  content: "\f0e7";
+}
+.fontawesome-sitemap:before {
+  content: "\f0e8";
+}
+.fontawesome-umbrella:before {
+  content: "\f0e9";
+}
+.fontawesome-paste:before {
+  content: "\f0ea";
+}
+.fontawesome-lightbulb:before {
+  content: "\f0eb";
+}
+.fontawesome-exchange:before {
+  content: "\f0ec";
+}
+.fontawesome-cloud-download:before {
+  content: "\f0ed";
+}
+.fontawesome-cloud-upload:before {
+  content: "\f0ee";
+}
+.fontawesome-user-md:before {
+  content: "\f0f0";
+}
+.fontawesome-stethoscope:before {
+  content: "\f0f1";
+}
+.fontawesome-suitcase:before {
+  content: "\f0f2";
+}
+.fontawesome-bell-alt:before {
+  content: "\f0f3";
+}
+.fontawesome-coffee:before {
+  content: "\f0f4";
+}
+.fontawesome-food:before {
+  content: "\f0f5";
+}
+.fontawesome-file-alt:before {
+  content: "\f0f6";
+}
+.fontawesome-building:before {
+  content: "\f0f7";
+}
+.fontawesome-hospital:before {
+  content: "\f0f8";
+}
+.fontawesome-ambulance:before {
+  content: "\f0f9";
+}
+.fontawesome-medkit:before {
+  content: "\f0fa";
+}
+.fontawesome-fighter-jet:before {
+  content: "\f0fb";
+}
+.fontawesome-beer:before {
+  content: "\f0fc";
+}
+.fontawesome-h-sign:before {
+  content: "\f0fd";
+}
+.fontawesome-plus-sign-alt:before {
+  content: "\f0fe";
+}
+.fontawesome-double-angle-left:before {
+  content: "\f100";
+}
+.fontawesome-double-angle-right:before {
+  content: "\f101";
+}
+.fontawesome-double-angle-up:before {
+  content: "\f102";
+}
+.fontawesome-double-angle-down:before {
+  content: "\f103";
+}
+.fontawesome-angle-left:before {
+  content: "\f104";
+}
+.fontawesome-angle-right:before {
+  content: "\f105";
+}
+.fontawesome-angle-up:before {
+  content: "\f106";
+}
+.fontawesome-angle-down:before {
+  content: "\f107";
+}
+.fontawesome-desktop:before {
+  content: "\f108";
+}
+.fontawesome-laptop:before {
+  content: "\f109";
+}
+.fontawesome-tablet:before {
+  content: "\f10a";
+}
+.fontawesome-mobile-phone:before {
+  content: "\f10b";
+}
+.fontawesome-circle-blank:before {
+  content: "\f10c";
+}
+.fontawesome-quote-left:before {
+  content: "\f10d";
+}
+.fontawesome-quote-right:before {
+  content: "\f10e";
+}
+.fontawesome-spinner:before {
+  content: "\f110";
+}
+.fontawesome-circle:before {
+  content: "\f111";
+}
+.fontawesome-reply:before {
+  content: "\f112";
+}
+.fontawesome-github-alt:before {
+  content: "\f113";
+}
+.fontawesome-folder-close-alt:before {
+  content: "\f114";
+}
+.fontawesome-folder-open-alt:before {
+  content: "\f115";
+}
+.b-menu {
+  text-align: right;
+  color: #ffffff;
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: 9;
+  background-color: rgba(0, 0, 0, 0.85);
+}
+.b-menu:before {
+  content: "Menu  \f0dc";
+  text-indent: 0;
+  margin: 0 .3em 0 0;
+  display: inline-block;
+  width: 72px;
+  height: 24px;
+  float: none;
+  top: auto;
+  right: 5%;
+  bottom: -24px;
+  left: auto;
+  position: absolute;
+  background-color: #a9000a;
+  background-image: url('../images/top-menu.png');
+  background-repeat: no-repeat;
+  background-position: center top;
+  padding-top: 0;
+  text-align: center;
+  cursor: pointer;
+  line-height: 24px;
+  font: 1em / 24px a;
+  font-family: 'FontAwesome', sans-serif;
+  color: #ffffff;
+}
+.b-menu.active {
+  position: fixed;
+  left: 0;
+}
+.b-menu > ul {
+  display: inline-block;
+  width: auto;
+  float: right;
+}
+.b-menu > ul > li {
+  width: auto;
+}
+.b-menu > ul > li > a {
+  display: block;
+  width: 100%;
+  position: relative;
+  float: left;
+  padding: 6px 12px;
+  line-height: 20px;
+  min-width: 120px;
+  text-align: center;
+  color: #ffffff;
+}
+.b-menu > ul > li > a:hover {
+  font-weight: bold;
+}
+.b-intro {
+  color: #ffffff;
+  background-color: transparent;
+  background-image: url('../images/back-main.png');
+  background-repeat: repeat;
+  background-position: center top;
+  padding-top: 105px;
+}
+.b-intro:before {
+  content: '';
+  text-indent: 0;
+  margin: 0 .3em 0 0;
+  text-align: center;
+  display: inline-block;
+  width: 1px;
+  height: 800px;
+  float: none;
+  background-color: transparent;
+  background-image: url('../images/back-intro.png');
+  background-repeat: no-repeat;
+  background-position: center top;
+  top: 0;
+  left: 50%;
+  position: absolute;
+}
+.b-intro h1 {
+  text-indent: -9999px;
+  text-align: left;
+  overflow: hidden;
+  width: 295px;
+  height: 88px;
+  background-color: transparent;
+  background-image: url('../images/logo_s4n.png');
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  left: -147.5px;
+  margin-left: 50%;
+  margin-bottom: 100px;
+}
+.b-intro small {
+  margin-bottom: 50px;
+  border-top: 1px solid #a6404e;
+  border-bottom: 1px solid #a6404e;
+}
+.b-intro .timezone {
+  display: block;
+  width: 100%;
+  height: 240px;
+  top: auto;
+  right: auto;
+  bottom: 0;
+  left: auto;
+  position: absolute;
+}
+.b-intro .timezone div {
+  float: none;
+}
+.b-services:before {
+  content: '';
+  text-indent: 0;
+  margin: 0 .3em 0 0;
+  text-align: center;
+  display: inline-block;
+  width: 1px;
+  height: 100px;
+  float: none;
+  background-color: transparent;
+  background-image: url('../images/back-services.png');
+  background-repeat: no-repeat;
+  background-position: center top;
+  top: 0;
+  left: 50%;
+  position: absolute;
+}
+.b-services small:before {
+  content: '';
+  text-indent: 0;
+  margin: 0 .3em 0 0;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  height: 100px;
+  float: none;
+  background-color: transparent;
+  background-image: url('../images/back-services-small.png');
+  background-repeat: no-repeat;
+  background-position: left top;
+  top: -100px;
+  left: 0;
+  position: absolute;
+}
+.b-services h2 {
+  padding-left: 45px;
+}
+.b-services small {
+  padding-left: 45px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+}
+.b-services .tabset {
+  border-left: 1px solid #ccc;
+}
+.b-services .tabset .details {
+  padding-left: 20px;
+}
+.b-services .tabset .consulting span {
+  position: relative;
+}
+.b-services .tabset .consulting span:before {
+  content: '';
+  text-indent: 0;
+  margin: 0 .3em 0 0;
+  text-align: center;
+  display: inline-block;
+  width: 1px;
+  height: 30px;
+  float: none;
+  top: -30px;
+  right: -13px;
+  bottom: auto;
+  left: auto;
+  position: absolute;
+  background-color: #a9000a;
+}
+p .em {
+  color: #a9000a;
+}
+p.center {
+  text-align: center;
+}
+.b-cases {
+  background-color: transparent;
+  background-image: url('../images/line-cases.png');
+  background-repeat: no-repeat;
+  background-position: center top;
+  padding: 145px 2% 0;
+}
+.b-cases h2 {
+  margin-bottom: 190px;
+}
+.b-cases h2 span {
+  background-color: #ffffff;
+  border-width: 0 0 1px;
+  border-style: solid;
+  border-color: #cccccc;
+}
+.b-cases small {
+  border-bottom: 1px solid #cccccc;
+  margin-bottom: 20px;
+}
+.b-cases small strong {
+  display: block;
+}
+.b-cases .case {
+  margin-bottom: 100px;
+}
+.b-cases .cointernet .reel {
+  right: -2%;
+}
+.b-cases .cointernet p,
+.b-cases .cointernet small {
+  text-align: right;
+}
+.b-cases .certicamara .reel {
+  left: -2%;
+}
+.b-cases .certicamara .description,
+.b-cases .certicamara .technologies {
+  text-align: left;
+}
+.b-cases .certicamara .technologies:before {
+  background-image: url('../images/line-case-left.png');
+  top: auto;
+  right: auto;
+  bottom: -35px;
+  left: -50px;
+  position: absolute;
+}
+.b-cases .sura .reel {
+  right: -2%;
+}
+.b-cases .technologies:before {
+  content: '';
+  text-indent: 0;
+  margin: 0 .3em 0 0;
+  text-align: center;
+  display: inline-block;
+  width: 233px;
+  height: 57px;
+  float: none;
+  background-color: transparent;
+  background-image: url('../images/line-case.png');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  top: auto;
+  right: -50px;
+  bottom: -35px;
+  left: auto;
+  position: absolute;
+}
+.b-cases .technologies {
+  text-align: right;
+}
+.b-cases .technologies img {
+  display: inline-block;
+  width: auto;
+}
+.b-clients.panel {
+  padding: 105px 2% 0;
+  text-align: center;
+  background-color: transparent;
+  background-image: url('../images/line-clients.png');
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+}
+.b-clients.panel small {
+  text-align: left;
+  width: 100%;
+}
+@media screen and (min-width: 800px) {
+  .b-clients.panel small {
+    width: 70%;
+  }
+}
+.b-clients.panel p {
+  padding: 0 10%;
+  text-align: center;
+}
+.b-clients.panel a {
+  float: none;
+}
+.b-clients.panel .logos {
+  text-align: center;
+  border-width: 1px 0;
+  border-style: solid;
+  border-color: #cccccc;
+  padding: 20px 0;
+  margin: 60px 0;
+}
+.b-clients.panel .logos:before {
+  content: '';
+  text-indent: 0;
+  margin: 0 .3em 0 0;
+  text-align: center;
+  display: inline-block;
+  width: 1px;
+  height: 55px;
+  float: none;
+  background-color: #cccccc;
+  top: -55px;
+  right: 50%;
+  bottom: auto;
+  left: auto;
+  position: absolute;
+}
+.b-clients.panel .logos:after {
+  content: '';
+  text-indent: 0;
+  margin: 0 0 0 .3em;
+  text-align: center;
+  display: inline-block;
+  width: 1px;
+  height: 55px;
+  float: none;
+  background-color: #cccccc;
+  top: auto;
+  right: 50%;
+  bottom: -55px;
+  left: auto;
+  position: absolute;
+}
+@media screen and (min-width: 1400px) {
+  .b-clients.panel .logos {
+    width: 1400px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .b-clients.panel .logos {
+    left: -700px;
+    margin-left: 50%;
+  }
+}
+.b-clients.panel .logos span {
+  background-color: transparent;
+  background-image: url('../images/logos-clientes.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  width: 160px;
+  height: 85px;
+  float: none;
+  text-indent: -9999px;
+  text-align: left;
+  overflow: hidden;
+  -ms-filter: grayscale(100%);
+  filter: url(../images/filters.svg#grayscale);
+  filter: gray;
+  -webkit-filter: grayscale(1);
+}
+.b-clients.panel .logos span:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
+  -webkit-transition: all 0.45s ease 0s;
+  -moz-transition: all 0.45s ease 0s;
+  -o-transition: all 0.45s ease 0s;
+  transition: all 0.45s ease 0s;
+  cursor: pointer;
+}
+.b-clients.panel .logos .sura {
+  background-position: 0 0;
+}
+.b-clients.panel .logos .heinsohn {
+  background-position: -160px 0;
+}
+.b-clients.panel .logos .mundial {
+  background-position: -320px 0;
+}
+.b-clients.panel .logos .liberty {
+  background-position: -480px 0;
+}
+.b-clients.panel .logos .bancoldex {
+  background-position: -640px 0;
+}
+.b-clients.panel .logos .ccs {
+  background-position: -800px 0;
+}
+.b-clients.panel .logos .co {
+  background-position: 0 -85px;
+}
+.b-clients.panel .logos .equidad {
+  background-position: -160px -85px;
+}
+.b-clients.panel .logos .certicamara {
+  background-position: -320px -85px;
+}
+.b-clients.panel .logos .camara {
+  background-position: -480px -85px;
+}
+.b-clients.panel .logos .onswipe {
+  background-position: -640px -85px;
+}
+.b-clients.panel .logos .carvajal {
+  background-position: -800px -85px;
+}
+.b-clients.panel .logos .bvc {
+  background-position: 0 -170px;
+}
+.b-clients.panel .logos .cintel {
+  background-position: -160px -170px;
+}
+.b-clients.panel .logos .synapsis {
+  background-position: -320px -170px;
+}
+.b-clients.panel .logos .fac {
+  background-position: -480px -170px;
+}
+.b-clients.panel .logos .certifactura {
+  background-position: -640px -170px;
+}
+.b-clients.panel .logos .kpm {
+  background-position: -800px -170px;
+}
+.b-clients.panel .logos .afiduciaria {
+  background-position: 0 -255px;
+}
+.b-clients.panel .logos .gel {
+  background-position: -160px -255px;
+}
+.b-clients.panel .logos .uniandinos {
+  background-position: -320px -255px;
+}
+.b-aboutus.panel {
+  padding: 75px 0 332px;
+  background-color: transparent;
+  background-image: url('../images/back-aboutus.png');
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+.b-aboutus.panel h2 {
+  margin-bottom: 45px;
+  text-align: center;
+  background-color: #ffffff;
+}
+.b-aboutus.panel small {
+  border-width: 1px 0;
+  border-style: solid;
+  border-color: #cccccc;
+  background-color: #ffffff;
+  margin-bottom: 45px;
+}
+.b-aboutus.panel p {
+  margin-bottom: 45px;
+  background-color: #ffffff;
+}
+.b-aboutus.panel .more {
+  margin-bottom: 20px;
+}
+.b-aboutus.panel .aboutus {
+  display: block;
+  width: 100%;
+  height: 332px;
+  top: auto;
+  right: auto;
+  bottom: 0;
+  left: auto;
+  position: absolute;
+  background-color: transparent;
+  background-image: url('../images/back-aboutus.jpg');
+  background-repeat: repeat-x;
+  background-position: center top;
+}
+.b-findus.panel {
+  padding: 75px 8% 0;
+  color: #ffffff;
+  background-color: transparent;
+  background-image: url('../images/back-main.png');
+  background-repeat: repeat;
+  background-position: center top;
+}
+.b-findus.panel:before {
+  content: '';
+  text-indent: 0;
+  margin: 0 .3em 0 0;
+  text-align: center;
+  display: inline-block;
+  width: 1px;
+  height: 550px;
+  float: none;
+  background-color: transparent;
+  background-image: url('../images/back-findus.png');
+  background-repeat: no-repeat;
+  background-position: left top;
+  z-index: 2;
+  top: 0;
+  left: 50%;
+  position: absolute;
+}
+.b-findus.panel h2 {
+  width: 100%;
+  text-align: left;
+  padding: 0.1em 0 125px;
+  border-width: 1px 0 0;
+  border-style: solid;
+  border-color: #bd3d4c;
+  background-color: transparent;
+  background-image: url('../images/back-aboutus-title.png');
+  background-repeat: no-repeat;
+  background-position: left bottom;
+}
+@media screen and (min-width: 800px) {
+  .b-findus.panel h2 {
+    width: 50%;
+  }
+}
+.b-findus.panel p {
+  margin-bottom: 125px;
+}
+.b-findus .findus {
+  width: 100%;
+  height: 311px;
+  background-color: transparent;
+  background-image: url('../images/back-findus.jpg');
+  background-repeat: repeat-x;
+  background-position: center top;
+  margin-left: -10%;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  padding: 55px 10% 0;
+}
+.b-findus .findus ul {
+  padding: 20px 0 0;
+  font-size: 1.4em;
+}
+@media screen and (min-width: 1200px) {
+  .b-findus .findus ul {
+    padding: 70px 10% 0;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .b-findus .findus ul {
+    font-size: 2.1em;
+  }
+}
+.b-findus .findus .atlanta div,
+.b-findus .findus .atlanta {
+  text-align: center;
+  padding-left: 0;
+}
+@media screen and (min-width: 1200px) {
+  .b-findus .findus .atlanta div,
+  .b-findus .findus .atlanta {
+    text-align: right;
+  }
+}
+.b-findus .findus .bogota div,
+.b-findus .findus .bogota {
+  text-align: center;
+  padding-right: 0;
+}
+@media screen and (min-width: 1200px) {
+  .b-findus .findus .bogota div,
+  .b-findus .findus .bogota {
+    text-align: left;
+  }
+}
+.b-findus .findus .atlanta .street-address span,
+.b-findus .findus .bogota .street-address span {
+  display: block;
+  width: 100%;
+}
+.b-findus .findus .location {
+  text-transform: uppercase;
+  font-size: 1.5em;
+}
+.b-bottom {
+  color: #ffffff;
+  background-color: #000000;
+  border-color: transparent;
+  padding: 10px 0;
+}
+.b-bottom .logo {
+  display: block;
+  width: 48px;
+  height: 13px;
+  background-color: transparent;
+  background-image: url('../images/logo-s4n-small.png');
+  background-repeat: no-repeat;
+  background-position: center top;
+  text-indent: -9999px;
+  text-align: left;
+  overflow: hidden;
+  width: 100%;
+}
+.b-bottom p {
+  text-align: center;
+}
+.panel {
+  min-height: 840px;
+}
+.panel small {
+  font-size: 3.2em;
+  text-transform: uppercase;
+}
+.panel small strong {
+  color: #a9000a;
+}
+.panel h3 {
+  font-size: 3.2em;
+}
+.panel h2 {
+  font-size: 5em;
+  text-transform: uppercase;
+}
+.panel .more {
+  border-width: 1px 0;
+  border-style: solid;
+  border-color: #a9000a;
+  float: right;
+  font-size: 1.6em;
+  display: inline-block;
+  background-color: #ffffff;
+}
+.panel p {
+  padding-bottom: 0.2em;
+  margin-bottom: .6em;
+  font-size: 1.9em;
+  float: none;
+}
+.panel .tabset {
+  margin-bottom: 450px;
+}
+.panel .tabset .details {
+  margin-bottom: 50px;
+}
+.panel .tabset .summary {
+  top: auto;
+  right: 0;
+  bottom: -350px;
+  left: auto;
+  position: absolute;
+  height: 350px;
+  width: 50%;
+}
+.panel .tabset .summary.software {
+  top: auto;
+  left: 0;
+  position: absolute;
+}
+.panel .tabset .summary h3 {
+  text-align: center;
+  cursor: pointer;
+}
+.panel .tabset .summary span {
+  width: 320px;
+  display: inline-block;
+  padding: 320px 0 0 0;
+  -webkit-background-size: 80%;
+  -moz-background-size: 80%;
+  background-size: 80%;
+}
+@media screen and (min-width: 480px) {
+  .panel .tabset .summary span {
+    width: 320px;
+  }
+}
+@media screen and (min-width: 960px) {
+  .panel .tabset .summary span {
+    padding: 320px 0 0 0;
+  }
+}
+@media screen and (min-width: 960px) {
+  .panel .tabset .summary span {
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    background-size: 100%;
+  }
+}
+.panel .tabset .summary.software span {
+  background-color: transparent;
+  background-image: url('../images/icon-softdelivery.png');
+  background-repeat: no-repeat;
+  background-position: center top;
+  float: right;
+}
+.panel .tabset .summary.consulting span {
+  background-color: transparent;
+  background-image: url('../images/icon-consulting.png');
+  background-repeat: no-repeat;
+  background-position: center top;
+  float: left;
+}
+.panel .tabset .summary.software.active span {
+  background-image: url('../images/icon-softdelivery-active.png');
+  color: #a9000a;
+}
+.panel .tabset .summary.consulting.active span {
+  background-image: url('../images/icon-consulting-active.png');
+  color: #a9000a;
+}
+.s4n {
+  min-height: 45px;
+  padding: 9px 0 0 2%;
+  background-color: #222222;
+  text-align: left;
+}
+.s4n .logo {
+  display: inline-block;
+  width: 87px;
+  height: 26px;
+  float: none;
+  background-color: #222222;
+  background-image: url('../images/logo-s4n-mini.png');
+  background-repeat: no-repeat;
+  background-position: 2% center;
+  text-indent: -9999px;
+  text-align: left;
+  overflow: hidden;
+  margin-left: 7%;
+}
+.panel.centered,
+.panel.centered h2 {
+  text-align: center;
+}
+.panel.centered small {
+  text-align: center;
+}
+@media screen and (min-width: 600px) {
+  .panel.centered small {
+    width: 520px;
+  }
+}
+@media screen and (min-width: 600px) {
+  .panel.centered small {
+    left: -260px;
+    margin-left: 50%;
+  }
+}
+.panel.centered p {
+  width: 100%;
+  font-size: 2.1em;
+  text-align: center;
+}
+@media screen and (min-width: 960px) {
+  .panel.centered p {
+    padding: 0 7% 0;
+  }
+}
+.panel.centered a {
+  float: none;
+}
+.panel.centerleft {
+  text-align: center;
+}
+.panel.centerleft h2 {
+  max-width: 1350px;
+  display: inline-block;
+  float: none;
+}
+.panel.centerleft p {
+  max-width: 1350px;
+  padding: 0;
+}
+.panel.centerleft small {
+  display: inline-block;
+  float: left;
+  border-width: 0 0 1px;
+  border-style: solid;
+  border-color: #c7c7c7;
+}
+.panel.halves {
+  padding: 105px 2% 0;
+}
+.panel.halves small {
+  text-align: left;
+}
