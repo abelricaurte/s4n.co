@@ -754,6 +754,15 @@
 .fontawesome-folder-open-alt:before {
   content: "\f115";
 }
+.b-menu {
+  text-align: right;
+  color: #ffffff;
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: 9;
+  background-color: rgba(0, 0, 0, 0.85);
+}
 .b-menu:before {
   content: "Menu  \f0dc";
   text-indent: 0;
@@ -778,15 +787,6 @@
   font: 1em / 24px a;
   font-family: 'FontAwesome', sans-serif;
   color: #ffffff;
-}
-.b-menu {
-  text-align: right;
-  color: #ffffff;
-  top: 0;
-  left: 0;
-  position: fixed;
-  z-index: 9;
-  background-color: rgba(0, 0, 0, 0.85);
 }
 .b-menu.active {
   position: fixed;
@@ -814,6 +814,14 @@
 .b-menu > ul > li > a:hover {
   font-weight: bold;
 }
+.b-intro {
+  color: #ffffff;
+  background-color: transparent;
+  background-image: url('../images/back-main.png');
+  background-repeat: repeat;
+  background-position: center top;
+  padding-top: 105px;
+}
 .b-intro:before {
   content: '';
   text-indent: 0;
@@ -830,14 +838,6 @@
   top: 0;
   left: 50%;
   position: absolute;
-}
-.b-intro {
-  color: #ffffff;
-  background-color: transparent;
-  background-image: url('../images/back-main.png');
-  background-repeat: repeat;
-  background-position: center top;
-  padding-top: 105px;
 }
 .b-intro h1 {
   text-indent: -9999px;
@@ -937,6 +937,12 @@
   left: auto;
   position: absolute;
   background-color: #a9000a;
+}
+p .em {
+  color: #a9000a;
+}
+p.center {
+  text-align: center;
 }
 .b-cases {
   background-color: transparent;
@@ -1039,6 +1045,14 @@
 .b-clients.panel a {
   float: none;
 }
+.b-clients.panel .logos {
+  text-align: center;
+  border-width: 1px 0;
+  border-style: solid;
+  border-color: #cccccc;
+  padding: 20px 0;
+  margin: 60px 0;
+}
 .b-clients.panel .logos:before {
   content: '';
   text-indent: 0;
@@ -1070,14 +1084,6 @@
   bottom: -55px;
   left: auto;
   position: absolute;
-}
-.b-clients.panel .logos {
-  text-align: center;
-  border-width: 1px 0;
-  border-style: solid;
-  border-color: #cccccc;
-  padding: 20px 0;
-  margin: 60px 0;
 }
 @media screen and (min-width: 1400px) {
   .b-clients.panel .logos {
@@ -1170,6 +1176,15 @@
 .b-clients.panel .logos .kpm {
   background-position: -800px -170px;
 }
+.b-clients.panel .logos .afiduciaria {
+  background-position: 0 -255px;
+}
+.b-clients.panel .logos .gel {
+  background-position: -160px -255px;
+}
+.b-clients.panel .logos .uniandinos {
+  background-position: -320px -255px;
+}
 .b-aboutus.panel {
   padding: 75px 0 332px;
   background-color: transparent;
@@ -1210,6 +1225,14 @@
   background-repeat: repeat-x;
   background-position: center top;
 }
+.b-findus.panel {
+  padding: 75px 8% 0;
+  color: #ffffff;
+  background-color: transparent;
+  background-image: url('../images/back-main.png');
+  background-repeat: repeat;
+  background-position: center top;
+}
 .b-findus.panel:before {
   content: '';
   text-indent: 0;
@@ -1227,14 +1250,6 @@
   top: 0;
   left: 50%;
   position: absolute;
-}
-.b-findus.panel {
-  padding: 75px 8% 0;
-  color: #ffffff;
-  background-color: transparent;
-  background-image: url('../images/back-main.png');
-  background-repeat: repeat;
-  background-position: center top;
 }
 .b-findus.panel h2 {
   width: 100%;
@@ -1305,6 +1320,7 @@
     text-align: left;
   }
 }
+.b-findus .findus .atlanta .street-address span,
 .b-findus .findus .bogota .street-address span {
   display: block;
   width: 100%;
@@ -1418,24 +1434,24 @@
 }
 .panel .tabset .summary.software span {
   background-color: transparent;
-  background-image: url('../img/icon-softdelivery.png');
+  background-image: url('../images/icon-softdelivery.png');
   background-repeat: no-repeat;
   background-position: center top;
   float: right;
 }
 .panel .tabset .summary.consulting span {
   background-color: transparent;
-  background-image: url('../img/icon-consulting.png');
+  background-image: url('../images/icon-consulting.png');
   background-repeat: no-repeat;
   background-position: center top;
   float: left;
 }
 .panel .tabset .summary.software.active span {
-  background-image: url('../img/icon-softdelivery-active.png');
+  background-image: url('../images/icon-softdelivery-active.png');
   color: #a9000a;
 }
 .panel .tabset .summary.consulting.active span {
-  background-image: url('../img/icon-consulting-active.png');
+  background-image: url('../images/icon-consulting-active.png');
   color: #a9000a;
 }
 .s4n {
@@ -1450,12 +1466,13 @@
   height: 26px;
   float: none;
   background-color: #222222;
-  background-image: url('../img/logo-s4n-mini.png');
+  background-image: url('../images/logo-s4n-mini.png');
   background-repeat: no-repeat;
   background-position: 2% center;
   text-indent: -9999px;
   text-align: left;
   overflow: hidden;
+  margin-left: 7%;
 }
 .panel.centered,
 .panel.centered h2 {
@@ -1482,7 +1499,7 @@
 }
 @media screen and (min-width: 960px) {
   .panel.centered p {
-    padding: 0 10% 0;
+    padding: 0 7% 0;
   }
 }
 .panel.centered a {

@@ -21,49 +21,49 @@
 
     alternate_rows();
 
-    // Parallax
-    if (window.addEventListener) window.addEventListener('DOMMouseScroll', wheel, false);
-    window.onmousewheel = document.onmousewheel = wheel;
+   //  // Parallax
+   //  if (window.addEventListener) window.addEventListener('DOMMouseScroll', wheel, false);
+   //  window.onmousewheel = document.onmousewheel = wheel;
 
-    var time = 1300;
-    var distance = 270;
+   //  var time = 1300;
+   //  var distance = 270;
 
-    function wheel(event) {
-        if (event.wheelDelta) delta = event.wheelDelta / 120;
-        else if (event.detail) delta = -event.detail / 3;
+   //  function wheel(event) {
+   //      if (event.wheelDelta) delta = event.wheelDelta / 120;
+   //      else if (event.detail) delta = -event.detail / 3;
 
-        handle();
-        if (event.preventDefault) event.preventDefault();
-        event.returnValue = false;
-    }
+   //      handle();
+   //      if (event.preventDefault) event.preventDefault();
+   //      event.returnValue = false;
+   //  }
 
-    function handle() {
+   //  function handle() {
 
-        $('html, body').stop().animate({
-            scrollTop: $(window).scrollTop() - (distance * delta)
-        }, time);
-    }
+   //      $('html, body').stop().animate({
+   //          scrollTop: $(window).scrollTop() - (distance * delta)
+   //      }, time);
+   //  }
 
-    $(document).keydown(function (e) {
+   //  $(document).keydown(function (e) {
 
-        switch (e.which) {
-            //up
-            case 38:
-                $('html, body').stop().animate({
-                    scrollTop: $(window).scrollTop() - distance
-                }, time);
-                break;
+   //      switch (e.which) {
+   //          //up
+   //          case 38:
+   //              $('html, body').stop().animate({
+   //                  scrollTop: $(window).scrollTop() - distance
+   //              }, time);
+   //              break;
 
-                //down
-            case 40:
-                $('html, body').stop().animate({
-                    scrollTop: $(window).scrollTop() + distance
-                }, time);
-                break;
-        }
-    });
+   //              //down
+   //          case 40:
+   //              $('html, body').stop().animate({
+   //                  scrollTop: $(window).scrollTop() + distance
+   //              }, time);
+   //              break;
+   //      }
+   //  });
 
-   // $window.bind('scroll', scrollUpdate);
+   // // $window.bind('scroll', scrollUpdate);
 
     // //Parallax
     var $window = $(window);
@@ -332,3 +332,8 @@
     };
 
     short_urls();
+
+
+    $('.more').click(function(event) {
+        event.preventDefault();
+    });
