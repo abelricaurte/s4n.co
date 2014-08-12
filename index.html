@@ -1,71 +1,140 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
+    <title>S4N - Reactive applications for agile companies</title>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>S4n.co by abelricaurte</title>
-
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <meta name="author" content="Seven4n">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, maximum-scale=1.0, user-scalable=no">
+    <link href="../img/favicon.ico" type="image/x-icon" rel="shortcut icon">
+    <link href="css/uno.css" rel="stylesheet">
+    <link href="css/reloj.css" rel="stylesheet">
+    <script src="js/jquery-2.1.0.min.js"></script>
+    <script src="js/reloj.js"></script>
   </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>S4n.co</h1>
-        <p></p>
-
-        <p class="view"><a href="https://github.com/abelricaurte/s4n.co">View the Project on GitHub <small>abelricaurte/s4n.co</small></a></p>
-
-
-        <ul>
-          <li><a href="https://github.com/abelricaurte/s4n.co/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/abelricaurte/s4n.co/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/abelricaurte/s4n.co">View On <strong>GitHub</strong></a></li>
-        </ul>
-      </header>
+  <body onload="relojdigital(); setInterval('relojdigital()', 1000 )" class="uno l-index">
+    <header>
+      <section><a href="http://www.reactivemanifesto.org/"><img style="border: 0; position: fixed; left: 0; top:0; z-index: 9000" src="images/reactive.png"></a></section>
+    </header>
+    <nav>
       <section>
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
-
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
-
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
+        <div class="b-menu scrollfix s4n"><a href="#top" class="logo">S4n</a>
+          <ul>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#success">Success Cases</a></li>
+            <li><a href="#clients">Clients</a></li>
+            <li><a href="#aboutus">About Us</a></li>
+            <li><a href="#findus">Find Us</a></li>
+          </ul>
+        </div>
       </section>
-      <footer>
-        <p>This project is maintained by <a href="https://github.com/abelricaurte">abelricaurte</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
-    </div>
-    <script src="javascripts/scale.fix.js"></script>
-    
+    </nav>
+    <main>
+      <section>
+        <div class="b-intro panel centered paralax">
+          <h1 id="top">S4n</h1><small>Reactive applications for agile companies</small>
+          <p><strong>Cutting-edge software technologies </strong>applied in challenging business contexts where quick results are what really matters.</p>
+          <div class="timezone">
+            <div id="ban_reloj" class="bg1">
+              <div id="Reloj" class="reloj">11 . 21</div>
+              <div class="ciudad"><span class="bog">BOG</span><span class="atl">ATL</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="panel s4n"><a href="#top" class="logo">S4n</a></div>
+        <div id="services" class="b-services panel halves col-2">
+          <h2>Services</h2><small class="unit">Helping companies to become<strong> agile </strong>and <strong>reactive</strong></small>
+          <div class="tabset">
+            <div class="summary software active">
+              <h3><span>Software Delivery</span></h3>
+            </div>
+            <div class="details">
+              <p> Involving our clients within the core of our <strong class="em">agile and continuous software delivery model </strong>has let them to obtain results up to 5x faster and getting rid of the rigid requirements definition and the Big Design Up Front traditional approaches.</p><a href="services.html" class="more">more to come...</a>
+            </div>
+            <div class="summary consulting">
+              <h3><span>Software Consultancy</span></h3>
+            </div>
+            <div class="details">
+              <p>From a technical proof of concept to a customized reference software architecture definition, our goal is to deliver <strong class="em">tangible </strong>results since the first stages.</p><a href="services.html" class="more">more to come...</a>
+            </div>
+          </div>
+        </div>
+        <div class="panel s4n"><a href="#top" class="logo">S4n</a></div>
+        <div id="success" class="b-cases panel">
+          <h2 class="aright"><span>Success Cases</span></h2>
+          <div class="case cointernet col-2">
+            <div class="description"><small>Incident Management System<strong>CO Internet S.A.S - Neustar Inc</strong></small>
+              <p>A Malicious Activity Monitoring system based on data feeding provided by the worldwide web security leaders. The IMS enables the execution and visualization of complex analytical procedures that support research processes for assessing, profiling and solving of security attacks on the Web.</p><a href="cases.html" class="more">more to come...</a>
+              <div class="technologies"><img src="images/spring.jpg" alt="Spring"><img src="images/mongoDB.jpg" alt="mongoDB"></div>
+            </div>
+            <div class="reel"><img src="images/cointernet1.jpg" alt="Spring"></div>
+          </div>
+          <div class="case certicamara col-2">
+            <div class="reel"><img src="images/todo1.jpg" alt="Spring"></div>
+            <div class="description"><small>Liferay Platform Solutions<strong>TODO1 Services </strong></small>
+              <p>Architecture and optimization services for highly distributed and concurrent systems belonging to some of the largest financial companies in Latin America.</p><a href="cases.html" class="more">more to come...</a>
+              <div class="technologies"><img src="images/java.jpg" alt="java"><img src="images/liferay.jpg" alt="liferay"></div>
+            </div>
+          </div>
+          <div class="case sura col-2">
+            <div class="description"><small>CertiFactura - e-Billing Solution<strong>CERTICÁMARA S.A</strong></small>
+              <p>A multi-tenant and flexible system for e-Billing transactions supporting public and private sector companies in Colombia. CertiFactura enables the expedition of more than 50.000 bills monthly compliant with the regulatory colombian framework. </p>
+              <p>Certifactura relies on a high parametrization capacity that has allowed Certicámara to increase and keep a high market share regarding electronic services delivery based on SaaS models.</p><a href="cases.html" class="more">more to come...</a>
+              <div class="technologies"><img src="images/java.jpg" alt="java"></div>
+            </div>
+            <div class="reel"><img src="images/certicamara1.jpg" alt="Spring"></div>
+          </div>
+          <div class="case certicamara col-2">
+            <div class="reel"><img src="images/sura1.jpg" alt="Scala, Akka, MongoDB"></div>
+            <div class="description"><small>SURA EN LÍNEA<strong>SEGUROS DE VIDA SURAMERICANA S.A</strong></small>
+              <p>A system developed under the reactive principles, provides a high performance solution with fault tolerance and predictable outcomes.  </p>
+              <p>Sura en Línea has enabled colombian citizens to intuitively purchase car insurances and delivered as a responsive solution it has granted users accessibility on any device. Deployed on a PaaS model, it allows the scalability and the Time to Market demanded by the business.</p><a href="cases.html" class="more">more to come...</a>
+              <div class="technologies"><img src="images/scala.jpg" alt="Scala"><img src="images/akka.jpg" alt="Akka"><img src="images/mongoDB.jpg" alt="mongoDB"><img src="images/angularjs.jpg" alt="Angular js"></div>
+            </div>
+          </div>
+        </div>
+        <div class="panel s4n"><a href="#top" class="logo">S4n</a></div>
+        <div id="clients" class="b-clients panel centerleft">
+          <h2>Clients</h2>
+          <p>More than <strong class="em">55 </strong>solutions deployed in companies belonging to multiple economic sectors such as: Insurance, Government, Banking and Financial Institutions, e-Business, Professional Services and Technology and Research</p><br><a href="cases.html" class="more">more to come...</a>
+          <div class="logos"><span class="sura">Sura</span><span class="co">Cointernet</span><span class="camara">Cámara de comercio de bogotá</span><span class="afiduciaria">Alianza Fiduciaria</span><span class="bvc">Bolsa de valores de colombia</span><span class="certicamara">Certicámara</span><span class="liberty">Liberty Seguros</span><span class="bancoldex">Bancoldex</span><span class="gel">Gobierno en Línea</span><span class="uniandinos">Uniandinos</span><span class="cintel">Cintel</span><span class="kpm">KPMG</span></div>
+        </div>
+        <div class="panel s4n"><a href="#top" class="logo">S4n</a></div>
+        <div id="aboutus" class="b-aboutus panel centered">
+          <h2>About Us</h2><small>A<strong> high quality</strong> work environment delivers the <strong>best solutions</strong></small>
+          <p>A results-only work environment that values self-organization, respect and the ambition to improve the way we build and deliver software to the world.</p><a href="cases.html" class="more">more to come...</a>
+          <div class="aboutus"></div>
+        </div>
+        <div class="panel s4n"><a href="#top" class="logo">S4n</a></div>
+        <div id="findus" class="b-findus panel paralax">
+          <h2>Find Us</h2>
+          <p class="center"><strong>Operations in USA and Colombia let us reach out to you faster</strong></p>
+          <div class="findus col-2">
+            <ul class="vcard atlanta unit">
+              <li class="adr">
+                <div class="location"><span class="country-name">USA</span></div>
+                <div class="street-address"><span>Business Development Center</span><span>Atlanta, Georgia </span><span>4069 Hilhouse Rd SW </span></div>
+              </li>
+              <li class="email">info-usa@s4n.co</li>
+            </ul>
+            <ul class="vcard bogota unit">
+              <li class="adr">
+                <div class="location"><span class="region">Bogotá, </span><span class="country-name">Colombia</span></div>
+                <div class="street-address"><span>Technical Development Center</span><span>Carrera 19A # 84-14 Piso 6</span><span>Edificio Torrenova</span></div>
+              </li>
+              <li class="email">info@s4n.co</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <section>
+        <div class="b-bottom copy">
+          <p class="seven4n"><span class="logo">S4n</span>2014 - All rights reserved</p>
+        </div>
+      </section>
+    </footer>
+    <script src="js/scripts.js"></script>
   </body>
 </html>

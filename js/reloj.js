@@ -24,12 +24,10 @@ function ban_reloj() {
 
     
     function changeClass(){
-      if(currentHour >= 6 && currentHour <= 13) {
+      if(currentHour >= 6 && currentHour <= 18) {
         elementWithBg.className = "bg1";
-      }else if(currentHour >= 14 && currentHour <= 21) {
-        elementWithBg.className = "bg2";
       }else{
-        elementWithBg.className = "bg3";
+        elementWithBg.className = "bg2";
       }
     }
     changeClass();
